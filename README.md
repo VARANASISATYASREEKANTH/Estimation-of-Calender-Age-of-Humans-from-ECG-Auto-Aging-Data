@@ -1,3 +1,36 @@
+# Automatic Aging Dataset  Characteristics
+Autonomic Aging: A dataset to quantify changes of cardiovascular autonomic function during healthy aging
+## Abstract:
+Autonomic function regulating blood pressure and cardiac rhythm progressively declines with increasing age. Impaired cardiovascular control promotes a variety of age-related conditions such as dementia, or Alzheimer’s disease. This study aims to provide a database of high-resolution biological signals to describe the effect of healthy aging on cardiovascular regulation. Electrocardiogram and continuous non-invasive blood pressure signals were recorded simultaneously at rest in 1,121 healthy volunteers.
+## Background
+The elderly population has a high prevalence of cardiovascular diseases, representing the globally leading cause of death [1]. Impairment of autonomic regulation of the cardiovascular system promotes the risk to develop age-related diseases such as dementia. Therefore, it is essential to detect bodily changes that adumbrate constrained cardiovascular fitness.  This database contains resting recordings of ECG and continuous noninvasive blood pressure of 1,121 healthy volunteers. Data sets have been collected over the last decade in Jena University Hospital. Here, we share the resulting data base to promote the systematic analysis of the effect of healthy aging on the cardiovascular system.
+
+## Methods
+All measurements were recorded at the department of psychosomatic medicine and psychotherapy at Jena university hospital. The study was approved by the ethics committee of the Medical Faculty of the Friedrich Schiller University Jena. All research was performed in accordance with relevant guidelines and regulations. The informed written consent was obtained from all subjects.
+
+An ECG (lead II) was recorded at 1000 Hz either by an MP150 (ECG100C, BIOPAC systems inc., Golata, CA, USA) or Task Force Monitor system (CNSystems Medizintechnik GmbH, Graz AUT). pre-gelled Ag/AgCl electrodes (BlueSensor VL, Ambu BmbH, Bad Nauheim, GER) were attached according to an Einthoven triangle.
+
+Continuous blood pressure was recorded non-invasively using the vascular unloading technique [2]. In short, a cuff around the finger is controlled to maintain constant pressure, while blood volume is recorded via photoplethysmography. With non-varying cuff pressure, the acquired blood volume is proportional to blood pressure in the arteries of the finger. The recorded signal is mapped to brachial blood pressure that is measured oscillometricly once during initialization of the system. The Task Force Monitor is equipped with a module for continuous blood pressure measurement. The MP150 system digitizes the signal acquired by a separate monitor CNAP 500 (CNSystems Medizintechnik GmbH, Graz AUT). The sampling frequency was 1000 Hz for both systems.
+
+Measurements were performed in an examination room that was temperature controlled at 22C. During the recordings it was absolutely quiet and fully shaded. The illumination level was kept constant via an indirect light source. The recording session started with an interview of the participant. Then, the purpose and design of the study was explained. Each of the subjects included in this collection gave his or her written consent to participate.
+
+After the subjects lied down comfortably on the examination tilt table, electrodes and pressure cuffs were placed. For the resting state recording, we instructed participants to avoid movement, yawning or coughing.
+
+The instructor waited a few minutes for the participant to calm down and checked the quality of the acquired signals. In case of insufficient signal quality, electrodes and cuffs were re-arranged. Otherwise, the recording was started. The length of the recording was on average 19 minutes (8 - 45 minutes) and was supervised by the instructor.
+
+## Data Description
+The data files are provided in open WFDB standard format and named in consecutive numbers after random ordering. Additional patient information is stored in the file subject-info.csv. To assure that none of our subject can be identified based on demographic information, we generalized individual age to age groups. We used the free Data Anonymization Toolbox ARX applied a k=2 anonymity condition and an average re-identification risk below 5% [3-4].
+
+Age groups are defined as follows: 1 (18-19 years), 2 (20-24 years), 3 (25-29 years), 4 (30-34 years), 5 (35-39 years), 6 (40-44 years), 7 (45-49 years), 8 (50-54 years), 9 (55-59 years), 10 (60-64 years), 11 (65-69 years), 12 (70-74 years), 13 (75-79 years), 14 (80-84 years), 15 (85-92 years). Gender is coded 0 (male) or 1 (female). Recording device is either 0 (TFM, CNSystems) or 1 (CNAP 500, CNSystems; MP150, BIOPAC Systems).
+
+
+
+
+
+
+
+
+
 # Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data
 The PhysioNet "Autonomic Aging: A dataset to quantify changes of cardiovascular autonomic function during healthy aging" database is used.
 # 🩺 Estimating Calendar Age from the PhysioNet Autonomic Aging (AutoAging) Dataset
