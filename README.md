@@ -1,4 +1,4 @@
-# Automatic Aging Dataset  Characteristics
+# 1. Automatic Aging Dataset  Characteristics
 Autonomic Aging: A dataset to quantify changes of cardiovascular autonomic function during healthy aging
 ## Abstract:
 Autonomic function regulating blood pressure and cardiac rhythm progressively declines with increasing age. Impaired cardiovascular control promotes a variety of age-related conditions such as dementia, or Alzheimer’s disease. This study aims to provide a database of high-resolution biological signals to describe the effect of healthy aging on cardiovascular regulation. Electrocardiogram and continuous non-invasive blood pressure signals were recorded simultaneously at rest in 1,121 healthy volunteers.
@@ -31,7 +31,7 @@ Age groups are defined as follows: 1 (18-19 years), 2 (20-24 years), 3 (25-29 ye
 
 
 
-# Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data
+# 2. Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data
 The PhysioNet "Autonomic Aging: A dataset to quantify changes of cardiovascular autonomic function during healthy aging" database is used.
 # 🩺 Estimating Calendar Age from the PhysioNet Autonomic Aging (AutoAging) Dataset
 
