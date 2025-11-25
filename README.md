@@ -31,7 +31,7 @@ Age groups are defined as follows: 1 (18-19 years), 2 (20-24 years), 3 (25-29 ye
 
 
 
-# 2. Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data
+# 2. Estimation-of-Calender-Age-of-Humans-from-ECG-Using Auto-Aging-Data
 The PhysioNet "Autonomic Aging: A dataset to quantify changes of cardiovascular autonomic function during healthy aging" database is used.
 # 🩺 Estimating Calendar Age from the PhysioNet Autonomic Aging (AutoAging) Dataset
 
