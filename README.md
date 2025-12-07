@@ -118,4 +118,3 @@ Within the header (.hea) file of most of these ECG records is a detailed clinica
 
 # Feature Extraction Network Layers and Flow DIagram 
 
-![plot](Architecture_and Network_Diagram_page-0001.jpg)
