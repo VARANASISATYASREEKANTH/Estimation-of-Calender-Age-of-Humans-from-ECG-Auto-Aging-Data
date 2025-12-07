@@ -96,10 +96,26 @@ This framework provides a quantitative, non-invasive method for assessing cardio
 
 The high sampling rates allow for the accurate calculation of complex time and frequency domain indices necessary for precise age prediction.
 
-# 5. Test Data:
-### https://physionet.org/content/ptb-xl/1.0.3/
+# 5. Test Data(PTB Diagnostic ECG Database):
+https://www.physionet.org/content/ptbdb/1.0.0/
 
-### Abstract: 
-Electrocardiography (ECG) is a key diagnostic tool to assess the cardiac condition of a patient. Automatic ECG interpretation algorithms as diagnosis support systems promise large reliefs for the medical personnel - only on the basis of the number of ECGs that are routinely taken. However, the development of such algorithms requires large training datasets and clear benchmark procedures. In our opinion, both aspects are not covered satisfactorily by existing freely accessible ECG datasets.
+## Test Data Specifications
+The ECGs in this collection were obtained using a non-commercial, PTB prototype recorder with the following specifications:
 
-The PTB-XL ECG dataset is a large dataset of 21799 clinical 12-lead ECGs from 18869 patients of 10 second length. The raw waveform data was annotated by up to two cardiologists, who assigned potentially multiple ECG statements to each record. The in total 71 different ECG statements conform to the SCP-ECG standard and cover diagnostic, form, and rhythm statements. To ensure comparability of machine learning algorithms trained on the dataset, we provide recommended splits into training and test sets. In combination with the extensive annotation, this turns the dataset into a rich resource for the training and the evaluation of automatic ECG interpretation algorithms. The dataset is complemented by extensive metadata on demographics, infarction characteristics, likelihoods for diagnostic ECG statements as well as annotated signal properties.
+* 16 input channels, (14 for ECGs, 1 for respiration, 1 for line voltage)
+*  **Input voltage**: ±16 mV, compensated offset voltage up to ± 300 mV
+* Input resistance: 100 Ω (DC)
+* Resolution: 16 bit with 0.5 μV/LSB (2000 A/D units per mV)
+* Bandwidth: 0 - 1 kHz (synchronous sampling of all channels)
+* Noise voltage: max. 10 μV (pp), respectively 3 μV (RMS) with input short circuit
+* Online recording of skin resistance
+* Noise level recording during signal collection
+The database contains 549 records from 290 subjects (aged 17 to 87, mean 57.2; 209 men, mean age 55.5, and 81 women, mean age 61.6; ages were not recorded for 1 female and 14 male subjects). Each subject is represented by one to five records. There are no subjects numbered 124, 132, 134, or 161. Each record includes 15 simultaneously measured signals: the conventional 12 leads (i, ii, iii, avr, avl, avf, v1, v2, v3, v4, v5, v6) together with the 3 Frank lead ECGs (vx, vy, vz). Each signal is digitized at 1000 samples per second, with 16 bit resolution over a range of ± 16.384 mV. On special request to the contributors of the database, recordings may be available at sampling rates up to 10 KHz.
+
+Within the header (.hea) file of most of these ECG records is a detailed clinical summary, including age, gender, diagnosis, and where applicable, data on medical history, medication and interventions, coronary artery pathology, ventriculography, echocardiography, and hemodynamics. The clinical summary is not available for 22 subjects.
+
+
+
+# Feature Extraction Network Layers and Flow DIagram 
+
+[![Feature Extraction, and Flow-Diagram](Architecture_and Network_Diagram.pdf)
