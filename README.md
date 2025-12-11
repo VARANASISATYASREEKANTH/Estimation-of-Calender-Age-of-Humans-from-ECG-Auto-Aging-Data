@@ -117,4 +117,10 @@ Within the header (.hea) file of most of these ECG records is a detailed clinica
 
 
 # Feature Extraction Network Layers and Flow DIagram 
-![plot](Architecture_and Network_Diagram_page-0001.jpg)
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/Architecture_and%20Network_Diagram_page-0001.jpg)
+
+# Train and Test Characteristics
+
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/Architecture_and%20Network_Diagram_page-0001.jpg)
+
+
