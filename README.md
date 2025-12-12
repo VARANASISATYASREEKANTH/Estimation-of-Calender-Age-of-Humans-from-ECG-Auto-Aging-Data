@@ -123,6 +123,16 @@ Within the header (.hea) file of most of these ECG records is a detailed clinica
 
 ![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/training_plots.png)
 
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/patient_consistency_histogram.png)
+
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/per_lead_confidence_boxplot.png)
+
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/prob_heatmap.png)
+
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/confidence_histogram.png)
+
+![Alt text](https://github.com/VARANASISATYASREEKANTH/Estimation-of-Calender-Age-of-Humans-from-ECG-Auto-Aging-Data/blob/main/class_distribution.png)
+
 # 
 
 
